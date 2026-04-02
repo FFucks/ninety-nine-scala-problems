@@ -22,7 +22,7 @@ class P04_impl_2 {
     result = dpk04.length(List(1, 1, 2, 3, 5, 8, 13, 21))
     println(result)
 
-    result = dpk04.length(List(1, 1, 2, 3, 5, 8, 13, 21, 43))
+    result = dpk04.length(List(1, 1, 2, 3, 5, 8, 13, 21, 34))
     println(result)
 
 }
