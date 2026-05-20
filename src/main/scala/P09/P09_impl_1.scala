@@ -24,7 +24,7 @@ class P09_impl_1 {
     
 }
 
-@main def P08Impl1(): Unit = {
+@main def P09Impl1(): Unit = {
 
     val dpk09 = new P09_impl_1
 
