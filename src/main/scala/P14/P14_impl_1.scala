@@ -27,11 +27,11 @@ class P14_impl_1 {
 
 @main def P14Impl1(): Unit = {
 
-    val dpk013 = new P14_impl_1
+    val dpk014 = new P14_impl_1
 
     val input = List("a", "b", "c", "c", "d")
 
-    val result = dpk013.duplicate(input)
+    val result = dpk014.duplicate(input)
 
     println(result)
 }
