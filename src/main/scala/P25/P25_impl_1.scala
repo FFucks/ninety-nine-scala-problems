@@ -35,7 +35,7 @@ class P25_impl_1 {
     }
 }
 
-@main def P24Impl1(): Unit = {
+@main def P25Impl1(): Unit = {
 
     val dpk025 = new P25_impl_1
 
