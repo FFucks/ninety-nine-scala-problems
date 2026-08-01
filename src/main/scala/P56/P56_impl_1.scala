@@ -1,16 +1,6 @@
 package P56
 
-sealed abstract class Tree[+T]
-
-case class Node[+T](value: T, left: Tree[T], right: Tree[T]) extends Tree[T]
-
-case object End extends Tree[Nothing]
-
-object Node {
-    def apply[T](value: T): Node[T] = {
-        new Node(value, End, End)
-    }
-}
+import Tree.*
 
 class P56_impl_1 {
 
